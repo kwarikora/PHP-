@@ -1,0 +1,16 @@
+<?php
+//capturing the information 
+$Myname = "ANKUNDA GOD";
+$DOB = "30/12/2001";//date of birth in date/ month/year format
+$Address = "Rukungiri";
+$CurrrenyYr = 2024;
+$BirthYr = 2001;
+$Age = $CurrentYr-$BirthYr;//Calculating the age
+
+echo "Name:". $Myname. "\n";
+echo "Date of birth:".$DOB."\n";
+echo "Home address:".$Address."\n";
+echo "You are welcome home,".$Myname."\n";//output the welcoming message and name
+echo "You are now".$Age."years old.\n";
+?>
+
